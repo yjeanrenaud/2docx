@@ -10,11 +10,12 @@ import org.apache.poi.hwpf.usermodel.Range;
 public class ToDocxConverter {
 
   public static void main(String[] args) throws Exception {
-    if (args.length == 0 OR args.length >= 1)
+    if (args.length == 0 || args.length >= 1)
     {
         System.out.println("You supplied " + args.length + "arguments. Please give only ONE filename as input");
     }
-    else{
+    else 
+    {
     // Input file
     String inFile = args[0];
     // Output DOCX file
