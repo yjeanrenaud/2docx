@@ -1,6 +1,6 @@
 # 2docx
-a simple converter for various file formats in order to use them with [QualiAnon] (https://github.com/pangaea-data-publisher/qualianon/), which is currently only importing docx
-The programme does so by using Apache POI HWPFFS (Horrible Word Processing Format) module from the [Apache POI Library] (https://poi.apache.org/)
+a simple converter for various file formats in order to use them with [QualiAnon](https://github.com/pangaea-data-publisher/qualianon/), which is currently only importing docx
+The programme does so by using Apache POI HWPFFS (Horrible Word Processing Format) module from the [Apache POI Library](https://poi.apache.org/)
 ## requirements
 2docx is built upon java 8 by orcale. Because you need that runtime anyhow for QualiAnon.
 ## supported file types
